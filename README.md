@@ -49,3 +49,13 @@ Starting from the cell with the maximum value, we go back, tracing back the path
 *How to run?* 
 
        python3 iqb1_q3.py -i protein.fa -o output_file_3.txt  
+
+
+
+
+
+
+
+
+
+Contributors: Chhavi , Dibya , Himanshi
