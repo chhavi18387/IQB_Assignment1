@@ -1,0 +1,5 @@
+### Question 1: Reading PDB and extracting data:
+- In the given question we were to implement a program that computes the Header, Title  and Resolution from a given pdb file that is reading through the protein data bank file. 
+So we have input format as a given PDB file, and we need to store the following details in  a text file. 
+- Brief Code Implementation: 
+First of all, we use sys to read the input and output files through the command line.After  that we open the input and output file. Then we start reading each line from the pdb file,  and as we are reading a line we are checking for our needed computations that makes  the algorithm efficient. So after reading a line, we split it on the basis of the first word,  then we check if the first word is Header, Title or Remark. If it is Header then , we write  the name corresponding to the header in our output file. Similar process is followed for  the title. Now if we find our splitted word as Remark then we proceed in the line to check  if we find the word Resolution and if we reach it, we write the value corresponding next to  resolution in Angstroms. 
